@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewMovieTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title" />
+
+    <EditText
+        android:id="@+id/editMovieName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter movie title here"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/genre" />
+
+    <EditText
+        android:id="@+id/editTextGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter genre here"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/year" />
+
+    <EditText
+        android:id="@+id/editTextYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter year of release here"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rating" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="G" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonInsert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/insert" />
+
+        <Button
+            android:id="@+id/buttonShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/show" />
+    </LinearLayout>
+</LinearLayout>

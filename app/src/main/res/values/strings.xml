@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Movies ~ Insert Movie</string>
+    <string name="appName">My Movies ~ Show Movies</string>
+    <string name="title">Movie Title</string>
+    <string name="genre">Genre</string>
+    <string name="year">Year</string>
+    <string name="rating">Rating</string>
+    <string name="insert">INSERT</string>
+    <string name="show">SHOW LIST</string>
+    <string name="btnShowList">SHOW ALL PG-13 MOVIES</string>
+    <string name="tvId">Movie ID</string>
+    <string name="etId">Enter Movie Id</string>
+    <string name="tvTitle2">Movie Title</string>
+    <string name="etTitle">Enter Movie Title</string>
+    <string name="tvGenre2">Genre</string>
+    <string name="tvYear2">Year</string>
+    <string name="etYear">Enter year</string>
+    <string name="tvRating2">Rating</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+    <string name="cancel">CANCEL</string>
+
+
+</resources>
